@@ -1,0 +1,123 @@
+{
+  "site_id": "site-969b1a430f80",
+  "keyword": "domótica open source home assistant",
+  "topic": "Domótica Open Source",
+  "slug": "domotica-open-source-home-assistant",
+  "directory": "domotica-open-source-home-assistant__2026-08-27",
+  "version": 1,
+  "created_at": "2026-08-27T02:15:57+00:00",
+  "updated_at": "2026-08-27T02:50:39+00:00",
+  "exported_at": "2026-08-27T02:51:09+00:00",
+  "decision": "CREATE_SITE",
+  "cluster_id": "CLU-4e992e9ee78f",
+  "pages_count": 12,
+  "pages": [
+    "404.html",
+    "articulos/domotica-open-source-y-servidores-locales-con-home-assistant/index.html",
+    "articulos/index.html",
+    "categorias/cultivos/index.html",
+    "categorias/index.html",
+    "contacto/index.html",
+    "cookies/index.html",
+    "guia/index.html",
+    "index.html",
+    "privacidad/index.html",
+    "sobre-nosotros/index.html",
+    "terminos/index.html"
+  ],
+  "assets": [
+    "404.html",
+    "ads.txt",
+    "articulos/domotica-open-source-y-servidores-locales-con-home-assistant/index.html",
+    "articulos/index.html",
+    "categorias/cultivos/index.html",
+    "categorias/index.html",
+    "contacto/index.html",
+    "cookies/index.html",
+    "css/responsive.css",
+    "css/style.css",
+    "favicon.svg",
+    "guia/index.html",
+    "images/00e679f5ece629c3-hero.jpg",
+    "images/518c470d0041aac8-subject.jpg",
+    "images/hero.svg",
+    "index.html",
+    "js/main.js",
+    "manifest.webmanifest",
+    "privacidad/index.html",
+    "robots.txt",
+    "rss.xml",
+    "sitemap.xml",
+    "sobre-nosotros/index.html",
+    "terminos/index.html"
+  ],
+  "asset_hashes_sha256_16": {
+    "rss.xml": "32f62858d868acb3",
+    "index.html": "54c529dddbfeb8ed",
+    "ads.txt": "61ed7ec7122f296c",
+    "404.html": "c8646786d6ec3e89",
+    "sitemap.xml": "a08f8a59f9a2ec7f",
+    "robots.txt": "5ea6d660bb512ece",
+    "manifest.webmanifest": "1a004adcd76baebc",
+    "favicon.svg": "a53478486f446369",
+    "guia/index.html": "9a9b58a2697d0e35",
+    "css/responsive.css": "facf8382a0fc2d57",
+    "css/style.css": "c85ae8992250cef4",
+    "images/00e679f5ece629c3-hero.jpg": "00e679f5ece629c3",
+    "images/518c470d0041aac8-subject.jpg": "518c470d0041aac8",
+    "images/hero.svg": "525f30c2eb39e014",
+    "js/main.js": "38e8c817bf4a9b29",
+    "articulos/index.html": "d45aba0a6a7ffce2",
+    "contacto/index.html": "a75fa8535ec1a0ac",
+    "sobre-nosotros/index.html": "6577b82d2d63d07d",
+    "categorias/index.html": "ff86a8b951f56de8",
+    "terminos/index.html": "9a8c559e93ed8b83",
+    "privacidad/index.html": "79175bf0b4f1f93e",
+    "cookies/index.html": "60897370f2b8bed9",
+    "categorias/cultivos/index.html": "bfec08e50b74d8fd",
+    "articulos/domotica-open-source-y-servidores-locales-con-home-assistant/index.html": "89e9a752642a44c0"
+  },
+  "images": [
+    {
+      "file": "00e679f5ece629c3-hero.jpg",
+      "source": "https://live.staticflickr.com/3087/3122079623_b85465ea10_b.jpg",
+      "author": "raulbarraltamayo",
+      "license": "CC BY-SA 2.0",
+      "sha256": "00e679f5ece629c3d5e13fd19760cc94c382fcbdfadba90282a4c2f7900400d5"
+    },
+    {
+      "file": "518c470d0041aac8-subject.jpg",
+      "source": "https://live.staticflickr.com/3204/3122904378_a521aa0046_b.jpg",
+      "author": "raulbarraltamayo",
+      "license": "CC BY-SA 2.0",
+      "sha256": "518c470d0041aac8e096d07666af093f19d27f21b17e00da83de0a0af49b2843"
+    }
+  ],
+  "qa": {
+    "technical": "PASS/WARN (ver validator en build_report)",
+    "visual": "ver runs/visual-qa/site-969b1a430f80",
+    "editorial": "ver learning_log",
+    "quality_gate": "UNKNOWN",
+    "quality_score": null
+  },
+  "export_gate": {
+    "blockers": [],
+    "warnings": [
+      "gate_desconocido (web histórica)"
+    ]
+  },
+  "content_hash": "361897a1720a9ed274375da1727da0fb",
+  "generator": "Money Web Factory — local-first, sin secretos",
+  "http_check": {
+    "ok": true,
+    "results": {
+      "index.html": 200,
+      "sitemap.xml": 200,
+      "robots.txt": 200,
+      "css/style.css": 200,
+      "css/responsive.css": 200,
+      "images/00e679f5ece629c3-hero.jpg": 200,
+      "js/main.js": 200
+    }
+  }
+}

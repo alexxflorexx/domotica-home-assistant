@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Domótica Casera con Home Assistant - Guía Completa 2026</title>
+<meta name="description" content="Guía completa de domótica open source con Home Assistant, Zigbee2MQTT y ESPHome. Tutoriales paso a paso para automatizar tu hogar sin dependencias.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://domotica-open-source-home-assistant.surge.sh/">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="RSS"
+ href="../rss.xml">
+<meta property="og:title" content="Domótica Casera con Home Assistant - Guía Completa 2026">
+<meta property="og:description" content="Guía completa de domótica open source con Home Assistant, Zigbee2MQTT y ESPHome. Tutoriales paso a paso para automatizar tu hogar sin dependencias.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://domotica-open-source-home-assistant.surge.sh/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Domótica Open Source y Servidores Locales con Home Assistant", "url": "https://domotica-open-source-home-assistant.surge.sh/"}</script>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido principal</a>
+<header class="site-header"><div class="container header-inner">
+<a class="logo" href="index.html">Domótica Casera</a>
+<nav class="site-nav" aria-label="Navegación principal"><ul><li><a href="../index.html">Inicio</a></li><li><a href="../guia/">Guía</a></li><li><a href="../articulos/">Artículos</a></li><li><a href="../categorias/">Categorías</a></li></ul></nav>
+<button class="nav-toggle" aria-expanded="false">☰ Menú</button>
+</div></header>
+<main id="main" class="container">
+<figure class="media"><img class="cover" src="../images/518c470d0041aac8-subject.jpg" alt="slot subject: domótica open source hogar"><figcaption>Imagen: raulbarraltamayo · licencia CC BY-SA 2.0 · fuente: https://www.flickr.com/photos/25526011@N03/3122904378</figcaption></figure>
+<h1>Domótica Casera sin Nube</h1>
+<nav class='breadcrumbs' aria-label='Migas de pan'><a href='../index.html'>Inicio</a> · <a href='../../articulos/'>Artículos</a> · <span>Domótica Open Source y Servidores Locales con Home Assistant</span></nav>
+<div class='toc'><strong>Contenido</strong><ul><li><a href='#integracion'>Integracion</a></li><li><a href='#hardware'>Hardware</a></li><li><a href='#red_malla'>Red malla</a></li><li><a href='#xiaomi'>Xiaomi</a></li><li><a href='#docker'>Docker</a></li><li><a href='#mapa_zigbee'>Mapa zigbee</a></li></ul></div>
+<h2 id='integracion'>Integracion</h2><ul>
+<li>La integración de dispositivos Zigbee mediante Zigbee2MQTT requiere modificar archivos de configuración de sistema, gestionar permisos en linux y flashear dongles USB. — fuente: <a href='https://domoticaencasa.es/tutorial-instalar-zigbee2mqtt-hassio/' rel='noopener'>domoticaencasa.es</a> (2024-01-15).</li>
+</ul>
+<h2 id='hardware'>Hardware</h2><ul>
+<li>Existen procedimientos documentados para realizar backups de memoria flash en microcontroladores ESP32 mediante esptool.py a 921600 baudios. — fuente: <a href='https://domoticaencasa.es/tutorial-xiaozhi-esp32-esphome/' rel='noopener'>domoticaencasa.es</a> (2024-02-10).</li>
+</ul>
+<h2 id='red_malla'>Red malla</h2><ul>
+<li>Los coordinadores USB Zigbee como CC2531 y CC2652 requieren flasheo de firmware para optimizar la cobertura de red malla. — fuente: <a href='https://domoticaencasa.es/tutorial-ampliamos-la-cobertura-de-nuestro-cc2531/' rel='noopener'>domoticaencasa.es</a> (2023-11-20).</li>
+</ul>
+<h2 id='xiaomi'>Xiaomi</h2><ul>
+<li>Los dispositivos Xiaomi Aqara pueden conectarse a Home Assistant sin usar el gateway oficial mediante procedimientos de flasheo específicos. — fuente: <a href='https://domoticaencasa.es/tutorial-usar-dispositivos-xiaomi-aqara-sin-gateway/' rel='noopener'>domoticaencasa.es</a> (2023-09-15).</li>
+</ul>
+<h2 id='docker'>Docker</h2><ul>
+<li>Home Assistant puede instalarse en NAS Synology mediante contenedores Docker, requiriendo configuración específica de permisos y volúmenes. — fuente: <a href='https://foro.domoticaencasa.es/viewtopic.php?t=908' rel='noopener'>foro.domoticaencasa.es</a> (2024-03-01).</li>
+</ul>
+<h2 id='mapa_zigbee'>Mapa zigbee</h2><ul>
+<li>Zigbee2MQTT permite visualizar el mapa topológico de la red Zigbee mediante paneles panel_iframe en Home Assistant. — fuente: <a href='https://domoticaencasa.es/home-assistant-28-visualizar-mapa-de-zigbee-en-nuestro-panel/' rel='noopener'>domoticaencasa.es</a> (2024-01-20).</li>
+</ul>
+<h2>Fuentes verificadas</h2><ol class='source-list'><li><a href='https://domoticaencasa.es/home-assistant-28-visualizar-mapa-de-zigbee-en-nuestro-panel/' rel='noopener'>https://domoticaencasa.es/home-assistant-28-visualizar-mapa-de-zigbee-en-nuestro-panel/</a></li><li><a href='https://domoticaencasa.es/tutorial-ampliamos-la-cobertura-de-nuestro-cc2531/' rel='noopener'>https://domoticaencasa.es/tutorial-ampliamos-la-cobertura-de-nuestro-cc2531/</a></li><li><a href='https://domoticaencasa.es/tutorial-instalar-zigbee2mqtt-hassio/' rel='noopener'>https://domoticaencasa.es/tutorial-instalar-zigbee2mqtt-hassio/</a></li><li><a href='https://domoticaencasa.es/tutorial-usar-dispositivos-xiaomi-aqara-sin-gateway/' rel='noopener'>https://domoticaencasa.es/tutorial-usar-dispositivos-xiaomi-aqara-sin-gateway/</a></li><li><a href='https://domoticaencasa.es/tutorial-xiaozhi-esp32-esphome/' rel='noopener'>https://domoticaencasa.es/tutorial-xiaozhi-esp32-esphome/</a></li><li><a href='https://foro.domoticaencasa.es/viewtopic.php?t=908' rel='noopener'>https://foro.domoticaencasa.es/viewtopic.php?t=908</a></li></ol>
+<div class="callout">Huecos declarados: volumen de búsqueda y competencia cuantitativa son UNVERIFIED (requieren Google Trends / Search Console).</div>
+</main>
+<footer class="site-footer"><div class="container footer-inner">
+<p>© Domótica Open Source — site-969b1a430f80.local</p>
+<ul><li><a href="../privacidad/">Privacidad</a></li>
+<li><a href="../cookies/">Cookies</a></li>
+<li><a href="../terminos/">Términos</a></li>
+<li><a href="../sobre-nosotros/">Sobre nosotros</a></li>
+<li><a href="../contacto/">Contacto</a></li></ul>
+</div></footer>
+<script src="../js/main.js" defer></script>
+</body>
+</html>
